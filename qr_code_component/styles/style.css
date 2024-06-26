@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(../fonts/Nunito-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+/* Global Styles */
+*, *::before, *::after{
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: lightgray;
+    font-family: "Nunito", sans-serif;
+    /* Align all elements to the center of the screen */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    background-color: white;
+    border: 16px;
+    width: 320px;
+    height: 500px;
+    border-radius: 24px;
+    
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_container{
+    background-color: lightseagreen;
+    border-radius: 8px;
+    width: 288px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caption{
+    width: 288px;
+    text-align: center;
+    font-size: .9em;
+    color: grey;
+}
+.caption h2{
+    font-family: "Poppins";
+    color: #013220;
+}
+img{
+    display: block;
+    width: 160px;
+}
